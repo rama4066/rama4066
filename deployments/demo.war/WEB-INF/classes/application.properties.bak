@@ -1,11 +1,11 @@
-
+user.login.exist=There is already a user registered with the email provided
 server.contextPath=/demo
 # ===============================
 # = DATA SOURCE
 # ===============================
-spring.datasource.url = jdbc:mysql://mysql:3306/world
-spring.datasource.username = user
-spring.datasource.password = password
+spring.datasource.url = jdbc:mysql://localhost:3306/world
+spring.datasource.username = root
+spring.datasource.password = admin
 spring.datasource.testWhileIdle = true
 spring.datasource.validationQuery = SELECT 1
 
